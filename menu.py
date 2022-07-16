@@ -98,7 +98,7 @@ def menu():
 			info_toket()
 			sistem("xdg-open https://cararegistrasi.com/O6oOMm2X")
 			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
-			if iw==tok1:
+			if iw==tok3:
 				iklan()
 				anj=open(".token/MbfX","w");anj.write(iw);anj.close()
 				sistem("cd .,/MbfX && python mbfx.py")
