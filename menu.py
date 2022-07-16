@@ -20,6 +20,7 @@ def info_toket():
 	emil(u+" ["+k+" INFO"+u+" ]\n")
 	animasi(p+""" Sebelum kamu menggunakan semua fitur yang ada di MtoolsX ini,kamu harus memasukan token terlebih dahulu , token yang dimaksud bukanlah token fb atau token lainya, melainkan token tersendiri dari McybearX,dan hanya ada di tools ini.
  Dan untuk mendapatkan token itu sendiri sangat mudah,kamu hanya perlu mendownload file txt ini,file itu berisi token MtoolsX, dan nantinya kamu hanya perlu menyalin token itu dan tempelkaan disini, jika masih bingung silahkan kunjungi channel youtube MBEWLEGS.
+
  TEKAN ENTER UNTUK MELANJUTKAN!!!
  KAMU AKAN DIARAHKAN KE BROWSER ,DAN MELEWATI reCHAPTCA, LALU DOWNLOAD FILE.TXT NYA
 """)
@@ -88,6 +89,7 @@ def menu():
 				animasi(u+" ["+m+"!"+u+"]"+m+" Token Invalid")
 				exit()
 			exit()
+
 	elif yakan==3:
 		ting()
 		if mddosx==tok3:
@@ -105,7 +107,10 @@ def menu():
 				animasi(u+" ["+m+"!"+u+"]"+m+" Token Invalid")
 				exit()
 			exit()
-			an==4:
+
+		aw=usup(mx+p+" Run : ")
+		sistem("cd .,/MddosX && "+aw)
+	elif yakan==4:
 		ting()
 		if mspamx==tok4:
 			iklan()
@@ -190,10 +195,10 @@ def Mcybear():
 		emil(mx+p+" Pilihan "+m+Emil+" Input Invalid!!!")
 		time.sleep(3)
 		Mcybear()
+
 if McybearX == "Usup_Ganteng":
 	sistem("git stash")
 	sistem("git pull")
 	menu()
-
 
 
