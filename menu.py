@@ -59,15 +59,15 @@ def menu():
 		ting()
 		if mbfx==tok1:
 			iklan()
-			sistem("cd .,/MbfX && python mbfx.py")
+			sistem()
 		else:
 			info_toket()
-			sistem("xdg-open https://cararegistrasi.com/Nhms3UJvF")
-			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
+			sistem()
+			iw=usup(mx+p+" Masukan Token : ")
 			if iw==tok1:
 				iklan()
-				anj=open(".token/MbfX","w");anj.write(iw);anj.close()
-				sistem("cd .,/MbfX && python mbfx.py")
+				anj=open();anj.write(iw);anj.close()
+				sistem()
 			else:
 				animasi(u+" ["+m+"!"+u+"]"+m+" Token Invalid")
 				exit()
@@ -76,15 +76,15 @@ def menu():
 		ting()
 		if mbfix==tok2:
 			iklan()
-			sistem("cd .,/MbfiX && python mbfix.py")
+			sistem()
 		else:
 			info_toket()
-			sistem("xdg-open https://cararegistrasi.com/aWQvji3W")
-			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
+			sistem()
+			iw=usup(mx+p+" Masukan Token : ")
 			if iw==tok2:
 				iklan()
-				anj=open(".token/MbfiX","w");anj.write(iw);anj.close()
-				sistem("cd .,/MbfiX && python mbfix.py")
+				anj=open();anj.write(iw);anj.close()
+				sistem()
 			else:
 				animasi(u+" ["+m+"!"+u+"]"+m+" Token Invalid")
 				exit()
@@ -93,15 +93,15 @@ def menu():
 		ting()
 		if mddosx==tok3:
 			iklan()
-			sistem("cd .,/MddosX && python mddosx.py")
+			sistem()
 		else:
 			info_toket()
-			sistem("xdg-open https://cararegistrasi.com/O6oOMm2X")
-			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
+			sistem()
+			iw=usup(mx+p+" Masukan Token : ")
 			if iw==tok3:
 				iklan()
-				anj=open(".token/MbfX","w");anj.write(iw);anj.close()
-				sistem("cd .,/MbfX && python mbfx.py")
+				anj=open();anj.write(iw);anj.close()
+				sistem()
 			else:
 				animasi(u+" ["+m+"!"+u+"]"+m+" Token Invalid")
 				exit()
@@ -113,15 +113,15 @@ def menu():
 		ting()
 		if mspamx==tok4:
 			iklan()
-			sistem("cd .,/MspamX && python mspamx.py")
+			sistem()
 		else:
 			info_toket()
-			sistem("xdg-open https://cararegistrasi.com/TyFy5LZFE")
-			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
+			sistem()
+			iw=usup(mx+p+" Masukan Token : ")
 			if iw==tok4:
 				iklan()
-				anj=open(".token/MspamX","w");anj.write(iw);anj.close()
-				sistem("cd .,/MspamX && python mspamx.py")
+				anj=open();anj.write(iw);anj.close()
+				sistem()
 			else:
 				animasi(u+" ["+m+"!"+u+"]"+m+" Token Invalid")
 				exit()
@@ -130,15 +130,15 @@ def menu():
 		ting()
 		if mbotx==tok5:
 			iklan()
-			sistem("cd .,/MbotX && python mbotx.py")
+			sistem()
 		else:
 			info_toket()
-			sistem("xdg-open https://cararegistrasi.com/OICOAmSnq")
+			sistem()
 			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
 			if iw==tok5:
 				iklan()
-				anj=open(".token/MbotX","w");anj.write(iw);anj.close()
-				sistem("cd .,/MbotX && python mbotx.py")
+				anj=open();anj.write(iw);anj.close()
+				sistem()
 			else:
 				animasi(u+" ["+m+"!"+u+"]"+m+" Token Invalid")
 				exit()
