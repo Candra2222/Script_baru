@@ -190,7 +190,7 @@ def Mcybear():
 		emil(mx+p+" Pilihan "+m+Emil+" Input Invalid!!!")
 		time.sleep(3)
 		Mcybear()
-		if McybearX == "Usup_Ganteng":
+if McybearX == "Usup_Ganteng":
 	sistem("git stash")
 	sistem("git pull")
 	menu()
