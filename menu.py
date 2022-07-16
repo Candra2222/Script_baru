@@ -89,7 +89,6 @@ def menu():
 				animasi(u+" ["+m+"!"+u+"]"+m+" Token Invalid")
 				exit()
 			exit()
-
 	elif yakan==3:
 		ting()
 		if mddosx==tok3:
